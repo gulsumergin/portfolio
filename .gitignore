@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Local env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files (GitHub 100MB limit)
+artisan-developer-main/public/pdf/case-studies/Final Demo Deck.pdf
