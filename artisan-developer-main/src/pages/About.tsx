@@ -1,3 +1,4 @@
+
 import React from "react";
 import { photos as originalPhotos } from "@/assets/photography/photos";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -205,6 +206,13 @@ const About = () => {
             <li key={id}>
               <a
                 href={`#${id}`}
+                onClick={e => {
+                  e.preventDefault();
+                  const el = document.getElementById(id);
+                  if (el) {
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }
+                }}
                 className={`toc-link${activeSection === id ? " toc-link-active" : ""}`}
                 aria-current={activeSection === id ? "page" : undefined}
               >

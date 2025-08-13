@@ -476,39 +476,55 @@ const CaseStudies = () => {
 
                 {/* CTA */}
                 {caseStudies[activeIndex].pdf ? (
-                  <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-2">
                     <Button
                       asChild
                       className="w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
                     >
                       <a
-                        href={caseStudies[activeIndex].pdf}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      href={caseStudies[activeIndex].pdf}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       >
-                        {caseStudies[activeIndex].id === "ctrl-sea"
-                          ? "View Final Demo Deck"
-                          : "View Full Case Study"}
-                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      {caseStudies[activeIndex].id === "ctrl-sea"
+                        ? "View Final Demo Deck"
+                        : "View Full Case Study"}
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </a>
                     </Button>
                     {/* Show manuscript button only for Kui Bot */}
                     {caseStudies[activeIndex].manuscript && (
                       <Button
-                        asChild
-                        className="w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+                      asChild
+                      className="w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
                       >
-                        <a
-                          href={caseStudies[activeIndex].manuscript}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          View Manuscript
-                          <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                        </a>
+                      <a
+                        href={caseStudies[activeIndex].manuscript}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View Manuscript
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </a>
                       </Button>
                     )}
-                  </div>
+                    {/* Show GitHub button only for Kui Bot */}
+                    {caseStudies[activeIndex].id === "kui-bot" && (
+                      <Button
+                      asChild
+                      className="w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 group"
+                      >
+                      <a
+                        href="https://github.com/gulsumergin/museum_chatbot"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        View in GitHub
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </a>
+                      </Button>
+                    )}
+                    </div>
                 ) : (
                   <Button
                     asChild
