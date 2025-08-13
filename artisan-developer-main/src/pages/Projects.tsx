@@ -29,14 +29,14 @@ const Projects = () => {
             "Educational Tool",
             "Team Project"
           ],
-          image: "/images/projects/academic/niosh-cover.png",
+          image: "/portfolio/images/projects/academic/niosh-cover.png",
           gallery: [
-            "/images/projects/academic/niosh-cover.png",
-            "/images/projects/academic/niosh-1.png",
-            "/images/projects/academic/niosh-2.png",
-            "/images/projects/academic/niosh-3.png"
+            "/portfolio/images/projects/academic/niosh-cover.png",
+            "/portfolio/images/projects/academic/niosh1.png",
+            "/portfolio/images/projects/academic/niosh2.png",
+            "/portfolio/images/projects/academic/niosh3.png"
           ],
-          pdfUrl: "/pdf/projects/academic/capstone_thesis.pdf",
+          pdfUrl: "/portfolio/pdf/projects/academic/capstone_thesis.pdf",
           details: `Category: Full-Stack Development
 Duration: 2 semesters (~8 months)
 Team Size: 6 people (Industrial & Software Engineers)
@@ -82,15 +82,15 @@ Team Members: Çağla Bakışgan, Yiğit Demirbilek, Hermann Knudsen, Başak Mü
             "Public Safety",
             "Team Project"
           ],
-          image: "/images/projects/academic/avoalarm-cover.jpg",
-          pdfUrl: "/pdf/projects/academic/avo-alarm.pdf",
-          manuscriptUrl: "/pdf/projects/academic/avo-alarm-manuscript.pdf",
-          posterUrl: "/pdf/projects/academic/avo-alarm-poster.pdf",
+          image: "/portfolio/images/projects/academic/avoalarm-cover.jpg",
+          pdfUrl: "/portfolio/pdf/projects/academic/avo-alarm.pdf",
+          manuscriptUrl: "/portfolio/pdf/projects/academic/avo-alarm-manuscript.pdf",
+          posterUrl: "/portfolio/pdf/projects/academic/avo-alarm-poster.pdf",
           gallery: [
-            "/images/projects/academic/avoalarm-cover.jpg",
-            "/images/projects/academic/avo1.jpg",
-            "/images/projects/academic/avo2.jpg",
-            "/images/projects/academic/avo3.jpg"
+            "/portfolio/images/projects/academic/avoalarm-cover.jpg",
+            "/portfolio/images/projects/academic/avo1.jpg",
+            "/portfolio/images/projects/academic/avo2.jpg",
+            "/portfolio/images/projects/academic/avo3.jpg"
           ],
           details: `Category: Product Design | Hardware Prototyping
 Duration: 1 semester (~4 months)
@@ -144,14 +144,14 @@ Collaborators:
             "Branding",
             "Team Project"
           ],
-          image: "/images/projects/academic/arpa-cover.png",
-          pdfUrl: "/pdf/projects/academic/arpa.pdf",
+          image: "/portfolio/images/projects/academic/arpa-cover.png",
+          pdfUrl: "/portfolio/pdf/projects/academic/arpa.pdf",
           gallery: [
-            "/images/projects/academic/arpa-cover.png",
-            "/images/projects/academic/arpa-wireframe.png",
-            "/images/projects/academic/arpa-hifi.png",
-            "/images/projects/academic/arpa-moodboard.png",
-            "/images/projects/academic/arpa-logo.png"
+            "/portfolio/images/projects/academic/arpa-cover.png",
+            "/portfolio/images/projects/academic/arpa-wireframe.png",
+            "/portfolio/images/projects/academic/arpa-hifi.png",
+            "/portfolio/images/projects/academic/arpa-moodboard.png",
+            "/portfolio/images/projects/academic/arpa-logo.png"
           ],
           details: `Category: Academic Project
 Duration: 1 Semester
@@ -200,12 +200,12 @@ Outcome:
             "Prototyping",
             "Team Project"
           ],
-          image: "/images/projects/academic/rebooked-cover.png",
-          pdfUrl: "/pdf/projects/academic/user experience design.pdf",
+          image: "/portfolio/images/projects/academic/rebooked-cover.png",
+          pdfUrl: "/portfolio/pdf/projects/academic/user experience design.pdf",
           gallery: [
-            "/images/projects/academic/rebooked-cover.png",
-            "/images/projects/academic/rebooked-persona.png",
-            "/images/projects/academic/rebooked-ui.png"
+            "/portfolio/images/projects/academic/rebooked-cover.png",
+            "/portfolio/images/projects/academic/rebooked-persona.png",
+            "/portfolio/images/projects/academic/rebooked-ui.png"
           ],
           details: `Category: Academic Project (User Experience Design)
 Duration: 1 Semester
@@ -245,19 +245,19 @@ Outcome:
           title: "Busuu Language Learning App – UX Research Case Study",
           description: "UX research and UI redesign for Busuu mobile app. Individual project focused on usability, onboarding, and interface improvements.",
           technologies: ["UX Research", "UI Design", "Usability Testing", "Persona", "Wireframing", "Prototyping"],
-          image: "/images/projects/academic/busu6.png",
+          image: "/portfolio/images/projects/academic/busu6.png",
           presentationUrl: "/presentations/ux-usability-1.pdf",
-          pdfUrl: "/pdf/projects/academic/busuu review.pdf",
+          pdfUrl: "/portfolio/pdf/projects/academic/busuu review.pdf",
           gallery: [
-            "/images/projects/academic/busu1.png",
-            "/images/projects/academic/busu2.png",
-            "/images/projects/academic/busu3.png",
-            "/images/projects/academic/busu4.png",
-            "/images/projects/academic/busu5.png",
-            "/images/projects/academic/busu6.png",
-            "/images/projects/academic/busu7.png",
-            "/images/projects/academic/busu8.png",
-            "/images/projects/academic/busu9.png"
+            "/portfolio/images/projects/academic/busu1.png",
+            "/portfolio/images/projects/academic/busu2.png",
+            "/portfolio/images/projects/academic/busu3.png",
+            "/portfolio/images/projects/academic/busu4.png",
+            "/portfolio/images/projects/academic/busu5.png",
+            "/portfolio/images/projects/academic/busu6.png",
+            "/portfolio/images/projects/academic/busu7.png",
+            "/portfolio/images/projects/academic/busu8.png",
+            "/portfolio/images/projects/academic/busu9.png"
           ],
           details: `Category: UX Research & UI Redesign for Mobile Application
 Duration: 2 Week (Research + Redesign phase)
@@ -297,13 +297,13 @@ Project by: Ümmü Gülsüm Ergin
           title: "Heuristic Evaluation of ZIRAAT Mobile Banking App",
           description: "Heuristic evaluation and UX recommendations for ZIRAAT Mobile Banking App.",
           technologies: ["UX", "Usability", "Heuristic Evaluation", "Jakob Nielsen", "Mobile Banking"],
-          image: "/images/projects/academic/ziraat1.png",
-          pdfUrl: "/pdf/projects/academic/ziraat.pdf",
+          image: "/portfolio/images/projects/academic/ziraat1.png",
+          pdfUrl: "/portfolio/pdf/projects/academic/ziraat.pdf",
           gallery: [
-            "/images/projects/academic/ziraat1.png",
-            "/images/projects/academic/ziraat2.png",
-            "/images/projects/academic/ziraat3.png",
-            "/images/projects/academic/ziraat4.png"
+            "/portfolio/images/projects/academic/ziraat1.png",
+            "/portfolio/images/projects/academic/ziraat2.png",
+            "/portfolio/images/projects/academic/ziraat3.png",
+            "/portfolio/images/projects/academic/ziraat4.png"
           ],
           details: `Category: Academic Project (UX Evaluation)
 Duration: 1 Semester
@@ -347,23 +347,23 @@ Outcome:
           title: "Blender 3D Modeling: Room & Chess Set",
           description: "3D modeling, texturing, and lighting of a detailed room interior and a chess set in Blender.",
           technologies: ["Blender", "3D Modeling", "Texturing", "Rendering", "UV Mapping", "Lighting"],
-          image: "/images/projects/game-design/r6.png",
+          image: "/portfolio/images/projects/game-design/r6.png",
           gallery: [
-            "/images/projects/game-design/r0.png",
-            "/images/projects/game-design/r1.png",
-            "/images/projects/game-design/r2.png",
-            "/images/projects/game-design/r3.png",
-            "/images/projects/game-design/r4.png",
-            "/images/projects/game-design/r5.png",
-            "/images/projects/game-design/r6.png",
-            "/images/projects/game-design/r7.png",
-            "/images/projects/game-design/s1.png",
-            "/images/projects/game-design/s2.png",
-            "/images/projects/game-design/s3.png",
-            "/images/projects/game-design/s5.png",
-            "/images/projects/game-design/s6.png",
-            "/images/projects/game-design/s7.png",
-            "/images/projects/game-design/t1.png"
+            "/portfolio/images/projects/game-design/r0.png",
+            "/portfolio/images/projects/game-design/r1.png",
+            "/portfolio/images/projects/game-design/r2.png",
+            "/portfolio/images/projects/game-design/r3.png",
+            "/portfolio/images/projects/game-design/r4.png",
+            "/portfolio/images/projects/game-design/r5.png",
+            "/portfolio/images/projects/game-design/r6.png",
+            "/portfolio/images/projects/game-design/r7.png",
+            "/portfolio/images/projects/game-design/s1.png",
+            "/portfolio/images/projects/game-design/s2.png",
+            "/portfolio/images/projects/game-design/s3.png",
+            "/portfolio/images/projects/game-design/s5.png",
+            "/portfolio/images/projects/game-design/s6.png",
+            "/portfolio/images/projects/game-design/s7.png",
+            "/portfolio/images/projects/game-design/t1.png"
           ],
           details: `<b>Category:</b> 3D Modeling & Texturing
 <b>Duration:</b> 1 Semester
@@ -403,16 +403,16 @@ This project involved creating multiple 3D scenes in Blender, focusing on modeli
           title: "Narrative Storytelling (D&D)",
           description: "Branching narrative RPG scenario set in the Planescape universe. Focus on player agency, world-building, and interactive storytelling.",
           technologies: ["Narrative Design", "Storytelling", "D&D", "RPG", "Midjourney","Interactive Fiction"],
-          image: "/images/projects/game-design/dndcover.png",
+          image: "/portfolio/images/projects/game-design/dndcover.png",
           gallery: [
-            "/images/projects/game-design/dndcover.png",
-            "/images/projects/game-design/dnd1.png",
-            "/images/projects/game-design/dnd2.png",
-            "/images/projects/game-design/dnd3.png",
-            "/images/projects/game-design/dnd4.png",
-            "/images/projects/game-design/dnd5.png"
+            "/portfolio/images/projects/game-design/dndcover.png",
+            "/portfolio/images/projects/game-design/dnd1.png",
+            "/portfolio/images/projects/game-design/dnd2.png",
+            "/portfolio/images/projects/game-design/dnd3.png",
+            "/portfolio/images/projects/game-design/dnd4.png",
+            "/portfolio/images/projects/game-design/dnd5.png"
           ],
-          pdfUrl: "/pdf/projects/game-design/dndstory.pdf",
+          pdfUrl: "/portfolio/pdf/projects/game-design/dndstory.pdf",
           details: `Category: Interactive Storytelling / Role-Playing Game (RPG)
 Duration: 3 Months
 Team Size: 1 (Writer & Designer)
@@ -456,22 +456,22 @@ Snippet: "Will Riven reclaim the Moonflower, or will Limbo’s chaos consume her
             "Environmental Storytelling",
             "Individual Project"
           ],
-          image: "/images/projects/game-design/final.png",
+          image: "/portfolio/images/projects/game-design/final.png",
           gallery: [
-            "/images/projects/game-design/final.png",
-            "/images/projects/game-design/front1.jpg",
-            "/images/projects/game-design/back1.jpg",
-            "/images/projects/game-design/finalcharachter.jpg",
-            "/images/projects/game-design/inspiration.png",
-            "/images/projects/game-design/stages.png",
-            "/images/projects/game-design/stages.jpg",  
-            "/images/projects/game-design/stg1.png",
-            "/images/projects/game-design/progress1.png",
-            "/images/projects/game-design/progress2.png",
-            "/images/projects/game-design/progress3.png",
-            "/images/projects/game-design/ins1.png",
-            "/images/projects/game-design/ins2.png",
-            "/images/projects/game-design/ins3.png",
+            "/portfolio/images/projects/game-design/final.png",
+            "/portfolio/images/projects/game-design/front1.jpg",
+            "/portfolio/images/projects/game-design/back1.jpg",
+            "/portfolio/images/projects/game-design/finalcharachter.jpg",
+            "/portfolio/images/projects/game-design/inspiration.png",
+            "/portfolio/images/projects/game-design/stages.png",
+            "/portfolio/images/projects/game-design/stages.jpg",  
+            "/portfolio/images/projects/game-design/stg1.png",
+            "/portfolio/images/projects/game-design/progress1.png",
+            "/portfolio/images/projects/game-design/progress2.png",
+            "/portfolio/images/projects/game-design/progress3.png",
+            "/portfolio/images/projects/game-design/ins1.png",
+            "/portfolio/images/projects/game-design/ins2.png",
+            "/portfolio/images/projects/game-design/ins3.png",
           ],
           details: `<b>Category:</b> Creative Design & Worldbuilding<br/><b>Duration:</b> Concept Development Project<br/><b>Team Size:</b> Individual<br/><b>My Role:</b> Worldbuilder & Character Designer<br/>
 <b>Overview:</b>
@@ -510,8 +510,8 @@ The Zephyr design combines ecological realism with fantastical worldbuilding, cr
           title: "User Research and Testing: Observational Study and Task Analysis of Body Temperature Measurement",
           description: "Observational study and interviews on how people measure body temperature, including pain points and device preferences.",
           technologies: ["User Research", "Interview", "Task Analysis", "Observational Study"],
-          pdfUrl: "/pdf/projects/ux-research/body-temperature-study.pdf",
-          image: "/images/projects/ux-research/temperature.png"
+          pdfUrl: "/portfolio/pdf/projects/ux-research/body-temperature-study.pdf",
+          image: "/portfolio/images/projects/ux-research/temperature.png"
         }
       ]
     },
@@ -565,14 +565,14 @@ Outcome:
             "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn",
             "scikit-learn", "Machine Learning", "Signal Processing"
           ],
-          image: "/images/projects/data-viz/acc1.png",
+          image: "/portfolio/images/projects/data-viz/acc1.png",
           gallery: [
-            "/images/projects/data-viz/acc1.png",
-            "/images/projects/data-viz/acc2.png",
-            "/images/projects/data-viz/acc3.png",
-            "/images/projects/data-viz/acc4.png"
+            "/portfolio/images/projects/data-viz/acc1.png",
+            "/portfolio/images/projects/data-viz/acc2.png",
+            "/portfolio/images/projects/data-viz/acc3.png",
+            "/portfolio/images/projects/data-viz/acc4.png"
           ],
-          pdfUrl: "/pdf/projects/data-viz/acc.pdf"
+          pdfUrl: "/portfolio/pdf/projects/data-viz/acc.pdf"
         },
         {
           title: "Eye Tracking Experiment: Attention Attraction in Ad Layouts Featuring Different Dog Breeds",
@@ -617,14 +617,14 @@ Outcome:
           technologies: [
             "Eye Tracking", "Usability", "Cognitive Psychology", "Heatmap", "Scanpath", "Quantitative Analysis", "Qualitative Analysis"
           ],
-          image: "/images/projects/data-viz/eye1.png",
+          image: "/portfolio/images/projects/data-viz/eye1.png",
           gallery: [
-            "/images/projects/data-viz/eye1.png",
-            "/images/projects/data-viz/eye2.png",
-            "/images/projects/data-viz/eye3.png",
-            "/images/projects/data-viz/eye4.png"
+            "/portfolio/images/projects/data-viz/eye1.png",
+            "/portfolio/images/projects/data-viz/eye2.png",
+            "/portfolio/images/projects/data-viz/eye3.png",
+            "/portfolio/images/projects/data-viz/eye4.png"
           ],
-          pdfUrl: "/pdf/projects/data-viz/eye.pdf"
+          pdfUrl: "/portfolio/pdf/projects/data-viz/eye.pdf"
         }
       ]
     },
@@ -636,35 +636,35 @@ Outcome:
           title: "Football Game Interface",
           description: "A simple, interactive football game interface to practice HTML, CSS, and JavaScript fundamentals. Features a static football field, start button, and score display.",
           technologies: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/software/football.png",
+          image: "/portfolio/images/projects/software/football.png",
           githubUrl: "https://gulsumergin.github.io/football-game-pointo-staj/football_area/football.html"
         },
         {
           title: "Valentine's Day",
           description: "A fun and interactive Valentine's Day themed project.",
           technologies: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/software/valentine.png",
+          image: "/portfolio/images/projects/software/valentine.png",
           githubUrl: "https://gulsumergin.github.io/valentines-day/index_updated.html"
         },
         {
           title: "Todo Web App",
           description: "A simple and effective todo web application.",
           technologies: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/software/todo.png",
+          image: "/portfolio/images/projects/software/todo.png",
           githubUrl: "https://gulsumergin.github.io/todo-app-final2/todo's_app/"
         },
         {
           title: "Welcome Home Project",
           description: "A web project for celebrating and gifting for a new home.",
           technologies: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/software/welcome.png",
+          image: "/portfolio/images/projects/software/welcome.png",
           githubUrl: "https://gulsumergin.github.io/yeni-evin-hay-rl-olsun/yeni-ev-hediyesi-formlu/index.html"
         },
         {
           title: "Exchange App",
           description: "Türk Lirası'nı Euro'ya çeviren ve son 7 günün istatistik ekranını gösteren bir döviz uygulaması.",
           technologies: ["HTML", "CSS", "JavaScript"],
-          image: "/images/projects/software/exchange.png",
+          image: "/portfolio/images/projects/software/exchange.png",
           githubUrl: "https://gulsumergin.github.io/exchange-app/"
         }
       ]
@@ -678,17 +678,17 @@ Outcome:
           description: "A set of creative business card designs for various clients.",
           technologies: ["Canva", "Sketch", "Print Design"],
           gallery: [
-            "/images/projects/design-projects/business-card-1.png",
-            "/images/projects/design-projects/business-card-2.png"
+            "/portfolio/images/projects/design-projects/business-card-1.png",
+            "/portfolio/images/projects/design-projects/business-card-2.png"
           ],
           canvaUrl: "https://www.canva.com/design/DAGN7IaBW-0/DL5cElE2l862ipfLoberTw/edit?utm_content=DAGN7IaBW-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-          image: "/images/projects/design-projects/businesscard.png"
+          image: "/portfolio/images/projects/design-projects/businesscard.png"
         },
         {
           title: "Invitation Designs",
           description: "Modern and elegant invitation cards for events and organizations.",
           technologies: ["Canva", "Sketch", "Print Design"],
-          image: "/images/projects/design-projects/invitation.png",
+          image: "/portfolio/images/projects/design-projects/invitation.png",
           canvaUrl: "https://www.canva.com/design/DAGTZZ8f6Ms/IHePYDjyD89UMrdxgcGjpw/edit?utm_content=DAGTZZ8f6Ms&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
           // No gallery, only cover image
         },
@@ -696,42 +696,42 @@ Outcome:
           title: "Infographic",
           description: "An informative infographic designed in order to raise awareness for technology addiction.",
           technologies: ["Canva", "Sketch", "Infographic"],
-          image: "/images/projects/design-projects/infograph.png",
+          image: "/portfolio/images/projects/design-projects/infograph.png",
           canvaUrl: "https://www.canva.com/design/DAGElhsNrSY/vsWi85B-0-aF2WsDPQT7ow/edit?utm_content=DAGElhsNrSY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           title: "Brochure - UX Project",
           description: "Brochure design focused on eye tracking heatmaps and heuristic evaluation findings.",
           technologies: ["Miro", "Canva", "UX", "Print", "Eye Tracking", "Heuristic Evaluation"],
-          image: "/images/projects/design-projects/uxeye.png",
+          image: "/portfolio/images/projects/design-projects/uxeye.png",
           canvaUrl: "https://www.canva.com/design/DAGZZYv7d5g/95bROJW65SK6-yAL5_75QQ/edit?utm_content=DAGZZYv7d5g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           title: "Brochure - Digital Fabrication",
           description: "Brochure for a digital fabrication workshop. Features the Avocado Alarm project: a device that sounds an alarm in theft situations. Detailed study is available in academic projects.",
           technologies: ["Canva", "Sketch", "Digital Fabrication", "Print", "Hardware"],
-          image: "/images/projects/design-projects/avo.png",
+          image: "/portfolio/images/projects/design-projects/avo.png",
           canvaUrl: "https://www.canva.com/design/DAGs_rRUflo/Ud42LCLQEbsx3NHwjPAvJA/edit?utm_content=DAGs_rRUflo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           title: "Brochure - Fair Event",
           description: "Brochure designed for a trade fair event. Designed for a consultancy firm participating in an education and overseas consultancy fair.",
           technologies: ["Canva", "Sketch", "Event", "Print"],
-          image: "/images/projects/design-projects/fair.png",
+          image: "/portfolio/images/projects/design-projects/fair.png",
           canvaUrl: "https://www.canva.com/design/DAGTaE-9U5k/vVfKZUvdyogxTHb1_RsFiw/edit?utm_content=DAGTaE-9U5k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           title: "Social Media Visuals",
           description: "A collection of social media post designs.",
           technologies: ["Canva", "Sketch", "Social Media"],
-          image: "/images/projects/design-projects/social.png",
+          image: "/portfolio/images/projects/design-projects/social.png",
           canvaUrl: "https://www.canva.com/design/DAF7Rxu8Y1A/kv_DpdyS2sEmVtIh1wv-rg/edit?utm_content=DAF7Rxu8Y1A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           title: "Logo Design",
           description: "Logo designed for Bahçeşehir University Photography Club.",
           technologies: ["Canva", "Logo Design"],
-          image: "/images/projects/design-projects/logo.png",
+          image: "/portfolio/images/projects/design-projects/logo.png",
           canvaUrl: "https://www.canva.com/design/DAFw45gvoUY/B-y4qKGO9ZQ_cguVM0_FLw/edit?utm_content=DAFw45gvoUY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         }
       ]
@@ -746,13 +746,13 @@ Outcome:
           technologies: [
             "Agile", "Scrum", "Project Management", "Full-Stack", "ASP.NET Core", "C#", "SQL Server"
           ],
-          image: "/images/projects/project-management/netas1.png",
+          image: "/portfolio/images/projects/project-management/netas1.png",
           gallery: [
-            "/images/projects/project-management/netas1.png",
-            "/images/projects/project-management/netas2.png",
-            "/images/projects/project-management/netas3.png"
+            "/portfolio/images/projects/project-management/netas1.png",
+            "/portfolio/images/projects/project-management/netas2.png",
+            "/portfolio/images/projects/project-management/netas3.png"
           ],
-          pdfUrl: "/pdf/projects/project-management/netas.pdf",
+          pdfUrl: "/portfolio/pdf/projects/project-management/netas.pdf",
           details: `Category: Full-Stack Development & Agile Project Management
 Duration: 8 Weeks (4 Sprints)
 Team Size: 8 people (Software Engineers, UI/UX Designers, Test Engineers)
@@ -793,13 +793,13 @@ Team Members: Sude Naz Öğdem, Selin Çeçen, Ümmü Gülsüm Ergin (myself), F
           technologies: [
             "Project Management", "Agile", "Scrum", "Mobile App", "Android", "iOS", "API", "SQL"
           ],
-          image: "/images/projects/project-management/oto1.png",
+          image: "/portfolio/images/projects/project-management/oto1.png",
           gallery: [
-            "/images/projects/project-management/oto1.png",
-            "/images/projects/project-management/oto2.png",
-            "/images/projects/project-management/oto3.png"
+            "/portfolio/images/projects/project-management/oto1.png",
+            "/portfolio/images/projects/project-management/oto2.png",
+            "/portfolio/images/projects/project-management/oto3.png"
           ],
-          pdfUrl: "/pdf/projects/project-management/oto.pdf",
+          pdfUrl: "/portfolio/pdf/projects/project-management/oto.pdf",
           details: `Category: Mobile App Development & Agile Project Management
 Duration: Not specified (Full software development life cycle)
 Team Size: 6 people (Software Engineers, Designers, Analysts, Testers)
@@ -840,7 +840,7 @@ Team Members: Begüm Kaya, Selin Çeçen, Ecem Aydoğan, Meltem Meydan, Ümmü G
     }
   };
 
-  const currentCategory = category || "ux-research";
+  const currentCategory = category || "academic";
   const categoryData = projectData[currentCategory as keyof typeof projectData];
 
   // Image gallery modal state

@@ -16,7 +16,7 @@ const CaseStudies = () => {
       duration: "1 semester (~4 months)",
       teamSize: "7 people",
       myRole: "Personas & Background Research",
-      image: "/images/swoosh-cover.png",
+  image: "/portfolio/images/swoosh-cover.png",
       tags: [
         "Personas", 
         "User Research", 
@@ -33,7 +33,7 @@ const CaseStudies = () => {
       },
       problem: "Racket sports enthusiasts lack a centralized platform to find players of similar skill levels, coordinate matches, and integrate sports into their routines—leading to fragmented communities and scheduling inefficiencies.",
       solution: "Designed an iOS-first app with skill-based matchmaking, real-time game coordination, and social features (e.g., achievements, leaderboards) to bridge gaps between players, clubs, and courts. Included a scalable design system and monetization strategy.",
-      pdf: "/pdf/case-studies/swoosh-case-study.pdf",
+  pdf: "/portfolio/pdf/case-studies/swoosh-case-study.pdf",
       collaborators: {
         "Academic Advisor": "Kai Philipp Haase (HSRW)"
       },
@@ -52,7 +52,7 @@ const CaseStudies = () => {
       duration: "Oct 2023 – Aug 31, 2024",
       teamSize: "3 people",
       myRole: "Software Engineer & Background Research",
-      image: "/images/kui-bot-cover.png",
+  image: "/portfolio/images/kui-bot-cover.png",
       tags: [
         "Python",
         "HTML",
@@ -80,8 +80,8 @@ const CaseStudies = () => {
         "Young visitors often struggle to engage with and understand the stories behind contemporary art pieces in exhibitions. Traditional museum experiences lack interactive, personalized, and accessible storytelling.",
       solution:
         "Built a secure, multimodal AI-powered chatbot for a museum exhibition, targeting young visitors to boost engagement and understanding of artifact stories. The chatbot features an intuitive, user-centered design and leverages a SQLite database for artifact/story storage. The solution was validated through user testing in a simulated museum environment.",
-      pdf: "/pdf/case-studies/museum chatbot.pdf",
-      manuscript: "/pdf/case-studies/manuscript.pdf",
+  pdf: "/portfolio/pdf/case-studies/museum chatbot.pdf",
+  manuscript: "/portfolio/pdf/case-studies/manuscript.pdf",
       evaluation: "UEQ and MES were used to evaluate both the usability of the chatbot and the quality of the overall exhibition experience.",
       results: "12 participants took part in the study: 7 females, 5 males, aged between 22 and 29 years old."
       
@@ -116,7 +116,7 @@ const CaseStudies = () => {
         "Shipping is a major source of emissions and faces rapidly changing regulations. Captains and fleet managers struggle to keep up with compliance and optimize for sustainability.",
       solution:
         "Designed and prototyped an AI-powered platform for net zero fleet management, featuring analytics, predictive routing, regulation intelligence, and real-time IoT integration. Demonstrated business model as SaaS for the Sea.",
-      pdf: "/pdf/case-studies/ctrlsea.pdf"
+  pdf: "/portfolio/pdf/case-studies/ctrlsea.pdf"
     },
     {
       id: "bridgeroute-pro",
@@ -126,7 +126,7 @@ const CaseStudies = () => {
       duration: "4-day sprint",
       teamSize: "9 people",
       myRole: "Team Member (T.S. & D.A.)",
-      image: "/images/bridgeroute-cover.png",
+  image: "/portfolio/images/bridgeroute-cover.png",
       tags: [
         "Route Optimization", 
         "Logistics", 
@@ -142,7 +142,7 @@ const CaseStudies = () => {
       },
       problem: "Route planners in logistics face inefficiencies due to manual processes, late data, and pressure to reduce costs while meeting delivery targets and sustainability goals (e.g., fuel consumption, CO₂ emissions).",
       solution: "Designed a scalable logistics dashboard prototype with AI-driven optimization, real-time monitoring, and eco-conscious features to streamline route planning, reduce LTL shipments, and improve delivery accuracy.",
-      pdf: "/pdf/case-studies/bridge route.pdf",
+  pdf: "/portfolio/pdf/case-studies/bridge route.pdf",
       collaborators: {
         "Industry Supervisor": "Iga Dudek",
         "Academic Advisor": "Prof. Dr. Karsten Nebe"
@@ -156,11 +156,11 @@ const CaseStudies = () => {
       duration: "5-day sprint",
       teamSize: "5 people",
       myRole: "Content Wireframes",
-      image: "/images/minco-cover.png",
+  image: "/portfolio/images/minco-cover.png",
       images: [
-        "/images/minco-cover.png",
-        "/images/minco-ui1.png",
-        "/images/minco-ui2.png"
+  "/portfolio/images/minco-cover.png",
+  "/portfolio/images/minco-ui1.png",
+  "/portfolio/images/minco-ui2.png"
       ],
       tags: [
         "Mental Health Tech", 
@@ -178,7 +178,7 @@ const CaseStudies = () => {
       },
       problem: "Young women face fragmented mental health support, with existing apps lacking personalization, gender-specific insights, and integration of daily wellness tools into busy schedules.",
       solution: "Designed an AI companion app that offers real-time mood analysis, adaptive goal-setting, and micro-interventions (e.g., meditation prompts) through a privacy-centric, inclusive interface. Prototyped core user flows for onboarding and habit-building.",
-      pdf: "/pdf/case-studies/Team Clarity MinCo.pdf",
+  pdf: "/portfolio/pdf/case-studies/Team Clarity MinCo.pdf",
       collaborators: {
         "Academic Advisor": "Prof. Dr. Karsten Nebe"
       },
@@ -248,19 +248,19 @@ const CaseStudies = () => {
                 {caseStudies[activeIndex].id === "swoosh" ? (
                   <div className="flex flex-col gap-6 w-full items-center">
                     <img
-                      src="/images/swoosh-cover.png"
+                      src="/portfolio/images/swoosh-cover.png"
                       alt="Swoosh Cover"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/swoosh-ui.png"
+                      src="/portfolio/images/swoosh-ui.png"
                       alt="Swoosh UI"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/swoosh-heatmap.png"
+                      src="/portfolio/images/swoosh-heatmap.png"
                       alt="Swoosh Heatmap"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
@@ -269,19 +269,19 @@ const CaseStudies = () => {
                 ) : caseStudies[activeIndex].id === "kui-bot" ? (
                   <div className="flex flex-col gap-6 w-full items-center">
                     <img
-                      src="/images/artandstories.png"
+                      src="/portfolio/images/artandstories.png"
                       alt="Art and Stories"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/chat.png"
+                      src="/portfolio/images/chat.png"
                       alt="Chat"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/selectartist.png"
+                      src="/portfolio/images/selectartist.png"
                       alt="Select Artist"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
@@ -290,19 +290,19 @@ const CaseStudies = () => {
                 ) : caseStudies[activeIndex].id === "ctrl-sea" ? (
                   <div className="flex flex-col gap-6 w-full items-center">
                     <img
-                      src="/images/ctrlsea1.png"
+                      src="/portfolio/images/ctrlsea1.png"
                       alt="CTRL+SEA Screenshot 1"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/ctrlsea2.png"
+                      src="/portfolio/images/ctrlsea2.png"
                       alt="CTRL+SEA Screenshot 2"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/ctrlsea3.png"
+                      src="/portfolio/images/ctrlsea3.png"
                       alt="CTRL+SEA Screenshot 3"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
@@ -311,19 +311,19 @@ const CaseStudies = () => {
                 ) : caseStudies[activeIndex].id === "bridgeroute-pro" ? (
                   <div className="flex flex-col gap-6 w-full items-center">
                     <img
-                      src="/images/bridge1.png"
+                      src="/portfolio/images/bridge1.png"
                       alt="BridgeRoute Pro Screenshot 1"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/bridge2.png"
+                      src="/portfolio/images/bridge2.png"
                       alt="BridgeRoute Pro Screenshot 2"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/bridge3.png"
+                      src="/portfolio/images/bridge3.png"
                       alt="BridgeRoute Pro Screenshot 3"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
@@ -332,19 +332,19 @@ const CaseStudies = () => {
                 ) : caseStudies[activeIndex].id === "mental-companion" ? (
                   <div className="flex flex-col gap-6 w-full items-center">
                     <img
-                      src="/images/minco-cover.png"
+                      src="/portfolio/images/minco-cover.png"
                       alt="MinCo Cover"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/minco-ui1.png"
+                      src="/portfolio/images/minco-ui1.png"
                       alt="MinCo UI 1"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}
                     />
                     <img
-                      src="/images/minco-ui2.png"
+                      src="/portfolio/images/minco-ui2.png"
                       alt="MinCo UI 2"
                       className="rounded-lg shadow-lg max-w-[340px] w-full object-contain transition-transform duration-300 hover:scale-[1.45] hover:z-30"
                       style={{ background: "#f9fafb" }}

@@ -21,9 +21,9 @@ const HeroSection = () => {
 
         {/* User Photo with interactive effect */}
         <div className="w-40 h-40 mx-auto mb-10 sm:mb-12 relative z-20 animate-fade-in group overflow-visible pt-4" style={{ animationDelay: '0.1s' }}>
-          <a href="/images/me.png" target="_blank" rel="noopener noreferrer" tabIndex={0} className="focus:outline-none block overflow-visible">
+          <a href="/portfolio/images/me.png" target="_blank" rel="noopener noreferrer" tabIndex={0} className="focus:outline-none block overflow-visible">
             <img
-              src="/images/me.png"
+              src="/portfolio/images/me.png"
               alt="Profile Photo"
               className="w-40 h-40 object-cover rounded-full border-4 border-primary shadow-lg mx-auto transition-transform duration-300 ease-in-out group-hover:scale-125 group-focus:scale-125 cursor-pointer"
               style={{ willChange: 'transform' }}
@@ -74,7 +74,7 @@ const HeroSection = () => {
             className="group border-2 hover:bg-card hover:shadow-soft transition-all duration-300 px-8 py-4 text-lg"
           >
             <a
-              href="/cv.pdf"
+              href="/portfolio/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               tabIndex={0}

@@ -48,7 +48,7 @@ const Navbar = () => {
             >
               {/* Logo: always show main logo, fade out on hover/focus, fade in hover logo */}
               <img
-                src="/uge.png"
+                src="/portfolio/uge.png"
                 alt="Logo"
                 className={
                   "w-10 h-10 object-contain mx-auto absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-200" +
@@ -58,7 +58,7 @@ const Navbar = () => {
                 style={{ pointerEvents: 'none', userSelect: 'none' }}
               />
               <img
-                src="/uge.png"
+                src="/portfolio/uge.png"
                 alt="Logo"
                 className="w-10 h-10 object-contain mx-auto absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-200"
                 draggable={false}

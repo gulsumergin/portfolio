@@ -99,7 +99,7 @@ const ProjectsPreview = () => {
             size="lg"
             className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
           >
-            <Link to="/projects/ux-research">
+            <Link to="/projects/academic">
               View All Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>

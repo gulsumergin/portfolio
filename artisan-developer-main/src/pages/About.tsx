@@ -677,7 +677,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">IBM / Coursera</p>
                   <p className="text-xs text-muted-foreground">2024</p>
                   <a
-                    href="/certificates/python.pdf"
+                    href="/portfolio/certificates/python.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -694,7 +694,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Tübitak Bilgem YTE Bootcamp</p>
                   <p className="text-xs text-muted-foreground">2023</p>
                   <a
-                    href="/certificates/figma.pdf"
+                    href="/portfolio/certificates/figma.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -711,7 +711,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Tübitak Bilgem YTE Bootcamp</p>
                   <p className="text-xs text-muted-foreground">2023</p>
                   <a
-                    href="/certificates/microservices.pdf"
+                    href="/portfolio/certificates/microservices.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -728,7 +728,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Tübitak Bilgem YTE Bootcamp</p>
                   <p className="text-xs text-muted-foreground">2023</p>
                   <a
-                    href="/certificates/java.pdf"
+                    href="/portfolio/certificates/java.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -745,7 +745,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Tübitak Bilgem YTE Bootcamp</p>
                   <p className="text-xs text-muted-foreground">2023</p>
                   <a
-                    href="/certificates/spring.pdf"
+                    href="/portfolio/certificates/spring.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -762,7 +762,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Tübitak Bilgem YTE Bootcamp</p>
                   <p className="text-xs text-muted-foreground">2023</p>
                   <a
-                    href="/certificates/ux.pdf"
+                    href="/portfolio/certificates/ux.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary underline text-xs mt-1 inline-block"
@@ -783,7 +783,7 @@ const About = () => {
             className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
           >
             <a
-              href="/cv.pdf"
+              href="/portfolio/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               tabIndex={0}
