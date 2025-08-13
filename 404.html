@@ -1,14 +1,18 @@
-<!-- 404.html for GitHub Pages SPA routing fix -->
+<!-- GitHub Pages SPA 404 redirect fix -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=/portfolio/" />
-    <script>
-      // Fallback for some browsers
-      window.location.replace('/portfolio/' + window.location.search + window.location.hash);
-    </script>
     <title>Redirecting...</title>
+    <script type="text/javascript">
+      // GitHub Pages SPA redirect
+      (function() {
+        var l = window.location;
+        var pathname = l.pathname.replace(/^\/portfolio\//, '/');
+        var redirect = '/portfolio/index.html#' + pathname + l.search + l.hash;
+        window.location.replace(redirect);
+      })();
+    </script>
   </head>
   <body>
     <p>Redirecting...</p>
