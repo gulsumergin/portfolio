@@ -1,73 +1,56 @@
-# portfolio
 
-## Project info
+# Portfolio
 
-**URL**: https://lovable.dev/projects/89f6c49c-142e-467b-960f-9ffd16555574
+Personal portfolio website built with React, Vite, TypeScript, Tailwind CSS, and shadcn-ui.
 
-## How can I edit this code?
+## Getting Started
 
-There are several ways of editing your application.
+1. **Clone the repository:**
+	```sh
+	git clone https://github.com/gulsumergin/portfolio.git
+	cd portfolio/artisan-developer-main
+	```
 
-**Use Lovable**
+2. **Install dependencies:**
+	```sh
+	npm install
+	```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/89f6c49c-142e-467b-960f-9ffd16555574) and start prompting.
+3. **Start the development server:**
+	```sh
+	npm run dev
+	```
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+- Personal information and project showcase
+- Case study PDFs and images
+- Modern, responsive design
+- Easy to customize
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn-ui](https://ui.shadcn.com/)
 
-Follow these steps:
+## Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd "c:\Users\casper\OneDrive\Masaüstü\artisan-developer-main (1)\artisan-developer-main"
-
-# Step 3: Install the necessary dependencies.
-npm install
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+artisan-developer-main/
+  ├── public/
+  ├── src/
+  ├── package.json
+  ├── tailwind.config.ts
+  └── ...
 ```
 
-**Edit a file directly in GitHub**
+## Contribution
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Feel free to fork this repository and submit pull requests.
 
-**Use GitHub Codespaces**
+## License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/89f6c49c-142e-467b-960f-9ffd16555574) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for personal use.
