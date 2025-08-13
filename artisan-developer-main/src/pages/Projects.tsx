@@ -19,7 +19,7 @@ const Projects = () => {
         {
           title: "C-NIOSH-RWL: Automated Ergonomics Risk Assessment Tool",
           description: "A capstone project developing a web-based tool to automate NIOSH Recommended Weight Limit (RWL) calculations, aimed at improving workplace safety and ergonomic education for industrial engineering students.",
-          summary: "Web-based tool for automated ergonomic risk assessment (NIOSH RWL), adopted in university curriculum, 100% usability test success, and reduced calculation time from 10+ minutes to <5 seconds.",
+          summary: "Web-based tool for automated ergonomic risk assessment (NIOSH RWL), adopted in university curriculum, achieved >80% task completion in usability testing, reducing calculation time from 100+ sec to under 5 sec.",
           technologies: [
             "Ergonomics", 
             "NIOSH Compliance", 
@@ -49,15 +49,16 @@ Solution:
 Developed a responsive web application that automates RWL/Lifting Index (LI) calculations, provides real-time risk feedback, and generates PDF reports. Integrated educational videos and tooltips to enhance learning.
 
 Impact:
-- User Testing Success Rate: 100% task completion (30 participants)
+- User Testing Success Rate: Achieved >80% task completion in usability testing, reducing calculation time from 100+ sec to under 5 
+sec.
 - Educational Integration: Adopted in INE2012 Work Study & Ergonomics course
 - Technical Stack: Spring Boot, Thymeleaf, Bootstrap, iTextPDF
-- Accessibility: WCAG 2.1 AA compliant
+
 
 Key Contributions:
 - Frontend Development: Built responsive UI with Bootstrap, dynamic form validation, and tooltips using JavaScript.
 - Integration: Connected Thymeleaf templates with Spring Boot backend for seamless data processing.
-- Testing: Conducted usability tests (30 participants) and analyzed T-CSUQ metrics (System Usefulness R²=0.52).
+- Testing: Conducted usability tests (30 participants) and analyzed metrics (System Usefulness R²=0.52).
 - Documentation: Co-authored project report and GitHub repository maintenance.
 
 Outcomes:
