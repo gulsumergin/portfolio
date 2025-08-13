@@ -1,0 +1,17 @@
+<!-- 404.html for GitHub Pages SPA routing fix -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not Found</title>
+    <script>
+      // Redirect all 404s to index.html for React Router
+      window.location.replace('/portfolio/' + window.location.search + window.location.hash);
+    </script>
+  </head>
+  <body>
+    <h1>404 - Page Not Found</h1>
+    <p>If you are not redirected automatically, <a href="/portfolio/">click here</a>.</p>
+  </body>
+</html>
