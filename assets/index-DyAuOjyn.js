@@ -355,7 +355,7 @@ Error generating stack: `+i.message+`
         `,"aria-label":"Table of contents",style:{minHeight:320},children:[s.jsx("button",{"aria-label":f?"Close contents":"Open contents",onClick:()=>m(g=>!g),className:`
             absolute -right-4 top-6 bg-white border border-muted shadow rounded-full w-8 h-8 flex items-center justify-center hover:bg-muted transition
             z-50
-          `,style:{display:f?"flex":"none"},children:s.jsx(yd,{size:20})}),s.jsx("div",{className:"font-bold text-base mb-2 tracking-wide text-foreground/80 pl-1",children:"Contents"}),s.jsx("ul",{className:"space-y-1 mt-4",children:Ma.map((g,v)=>s.jsx("li",{children:s.jsx("a",{href:`#${g}`,className:`toc-link${h===g?" toc-link-active":""}`,"aria-current":h===g?"page":void 0,children:BP[v]})},g))}),s.jsx("style",{children:`
+          `,style:{display:f?"flex":"none"},children:s.jsx(yd,{size:20})}),s.jsx("div",{className:"font-bold text-base mb-2 tracking-wide text-foreground/80 pl-1",children:"Contents"}),s.jsx("ul",{className:"space-y-1 mt-4",children:Ma.map((g,v)=>s.jsx("li",{children:s.jsx("a",{href:`#${g}`,onClick:x=>{x.preventDefault();const S=document.getElementById(g);S&&S.scrollIntoView({behavior:"smooth",block:"start"})},className:`toc-link${h===g?" toc-link-active":""}`,"aria-current":h===g?"page":void 0,children:BP[v]})},g))}),s.jsx("style",{children:`
           .toc-link {
             display: block;
             color: #7c3aed;
