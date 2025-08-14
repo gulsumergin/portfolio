@@ -663,7 +663,7 @@ Outcome:
         },
         {
           title: "Exchange App",
-          description: "Türk Lirası'nı Euro'ya çeviren ve son 7 günün istatistik ekranını gösteren bir döviz uygulaması.",
+          description: "A currency app that converts Turkish Lira to Euro and displays a statistics screen for the last 7 days.",
           technologies: ["HTML", "CSS", "JavaScript"],
           image: "/portfolio/images/projects/software/exchange.png",
           githubUrl: "https://gulsumergin.github.io/exchange-app/"
