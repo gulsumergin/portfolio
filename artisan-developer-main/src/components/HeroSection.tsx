@@ -45,12 +45,14 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          Usability & Human-Centric Approach
-          <span className="block mt-2 text-sm sm:text-base lg:text-lg">
-            I develop digital solutions focused on <b>user experience</b> and <b>international best practices</b>.
+          Frontend Developer & UX-focused Engineer.
+          <span className="block mt-4 text-sm sm:text-base lg:text-lg">
+            I design and develop user-centered web interfaces, bridging usability principles
+            with frontend technologies such as <b>JavaScript</b> and <b>React</b>.
           </span>
-          <span className="block mt-1 text-xs sm:text-sm text-muted-foreground/80">
-            I am currently exploring how <b>CNN</b> and <b>LSTM</b> based <b>machine learning</b> and <b>deep learning</b> methods can enhance <b>UX research</b> and real-life applications.
+          <span className="block mt-4 text-xs sm:text-sm text-muted-foreground/80">
+            With a background in Software Engineering and an MSc in Usability Engineering,
+            I focus on building digital products that are both usable and technically solid.
           </span>
         </p>
 
