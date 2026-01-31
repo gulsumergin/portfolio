@@ -5,6 +5,8 @@ Personal portfolio website built with React, Vite, TypeScript, Tailwind CSS, and
 
 ## Getting Started
 
+cd "c:\Users\casper\OneDrive\Masaüstü\artisan-developer-main (1)\artisan-developer-main"; npm run dev
+
 1. **Clone the repository:**
 	```sh
 	git clone https://github.com/gulsumergin/portfolio.git
