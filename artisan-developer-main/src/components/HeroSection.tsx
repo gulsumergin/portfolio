@@ -76,7 +76,7 @@ const HeroSection = () => {
             className="group border-2 hover:bg-card hover:shadow-soft transition-all duration-300 px-8 py-4 text-lg"
           >
             <a
-              href="/portfolio/cv.pdf"
+              href="/portfolio/cv.pdf?v=20260131"
               target="_blank"
               rel="noopener noreferrer"
               tabIndex={0}
