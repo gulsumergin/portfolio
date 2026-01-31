@@ -791,7 +791,7 @@ const About = () => {
             className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
           >
             <a
-              href="/portfolio/cv.pdf?v=20260131"
+              href="/portfolio/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               tabIndex={0}
